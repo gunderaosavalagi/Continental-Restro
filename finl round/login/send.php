@@ -21,11 +21,11 @@ if (isset($_POST["submit"])) {
     $mail->isSMTP();                              //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';       //Set the SMTP server to send through
     $mail->SMTPAuth   = true;             //Enable SMTP authentication
-    $mail->Username   = 'continentalrestro@gmail.com';   //SMTP write your email
-    $mail->Password   = 'zdvynuqkouprcdgx';      //SMTP password
+    $mail->Username   = ;   //SMTP write your email
+    $mail->Password   = ;      //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; 
     $mail->SMTPSecure = 'ssl';            //Enable implicit SSL encryption
-    $mail->Port       = 465;                                    
+    $mail->Port       = ;                                    
 
     //Recipients
     $mail->setFrom( $_POST["email"], $_POST["name"]); // Sender Email and name
